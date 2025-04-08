@@ -1,0 +1,58 @@
+{
+    "chrome": {
+        "keywords": ["chrome"],
+        "app": "google-chrome-stable"
+    },
+    "vscode": {
+        "keywords": ["vscode", "vs code","code editor","code","visual studio code"],
+        "command": "code"
+    },
+    "obsidian" : {
+        "keywords": ["obsidian","diary"],
+        "app": "obsidian"
+    },
+    "whatsapp": {
+        "keywords": ["whatsapp","whatsapp web"],
+        "url": "https://web.whatsapp.com"
+    },
+    "telegram": {
+        "keywords": ["telegram","telegram web"],
+        "url": "https://web.telegram.org"
+    },
+    "gmail": {
+        "keywords": ["gmail","email"],
+        "url": "https://mail.google.com"
+    },
+    "youtube": {
+        "keywords": ["youtube"],
+        "url": "https://www.youtube.com"
+    },
+    "keep": {
+        "keywords": ["notes app","notes","keep","google notes"],
+        "url": "https://keep.google.com"
+    },
+    "terminal": {
+        "keywords": ["terminal","terminal emulator","terminal app"],
+        "command": "konsole"
+    },
+    "spotify": {
+        "keywords": ["spotify","music","music player"],
+        "command": "spotify-launcher"
+    },
+    "stremio": {
+        "keywords": ["movies"],
+        "command": "stremio"
+    },
+    "discord": {
+        "keywords": ["discord","chat"],
+        "url": "https://discord.com/channels/@me"
+    },
+    "physicswallah": {
+        "keywords": ["physicswallah","pw"],
+        "url": "https://pw.live/"
+    },
+    "marks app": {
+        "keywords": ["marks","marks app","pyqs","pyq"],
+        "url": "https://web.getmarks.app"
+    }
+}

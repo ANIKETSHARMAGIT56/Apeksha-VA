@@ -1,0 +1,108 @@
+{
+    "pause":{
+        "keywords": ["pause now","stop now","pause","stop"],
+        "command": "playerctl",
+        "arguments": ["pause"]
+    },
+    "play":{
+        "keywords": ["play","resume","play now","resume now"],
+        "command": "playerctl",
+        "arguments": ["play"]
+    },
+    "next":{
+        "keywords": ["next","next song","next track"],
+        "command": "playerctl",
+        "arguments": ["next"]
+    },
+    "previous":{
+        "keywords": ["last song","previous","previous song","previous track"],
+        "command": "playerctl",
+        "arguments": ["previous"]
+    },
+    "volume up":{
+        "keywords": ["volume up","increase volume","louder"],
+        "command":"pactl",
+        "arguments": ["set-sink-volume","@DEFAULT_SINK@","+10%"]
+    },
+    "volume down":{
+        "keywords": ["volume down","decrease volume","quieter"],
+        "command":"pactl",
+        "arguments": ["set-sink-volume","@DEFAULT_SINK@","-10%"]
+    },
+    "volume 0":
+    {
+        "keywords": ["mute","volume 0","volume 0%","silence","volume at 0","volume at 0%"],
+        "command":"pactl",
+        "arguments": ["set-sink-volume","@DEFAULT_SINK@","0%"]
+    },
+    "volume 1":
+    {
+        "keywords": ["volume 1","volume 10%","volume at 1","volume at 10%"],
+        "command":"pactl",
+        "arguments": ["set-sink-volume","@DEFAULT_SINK@","10%"]
+    },
+    "volume 2":
+    {
+        "keywords": ["volume 2","volume 20%","volume at 2","volume at 20%"],
+        "command":"pactl",
+        "arguments": ["set-sink-volume","@DEFAULT_SINK@","20%"]
+    },
+    "volume 3":
+    {
+        "keywords": ["volume 3","volume 30%","volume at 3","volume at 30%"],
+        "command":"pactl",
+        "arguments": ["set-sink-volume","@DEFAULT_SINK@","30%"]
+    },
+    "volume 4":
+    {
+        "keywords": ["volume 4","volume 40%","volume at 4","volume at 40%"],
+        "command":"pactl",
+        "arguments": ["set-sink-volume","@DEFAULT_SINK@","40%"]
+    },
+    "volume 5":
+    {
+        "keywords": ["volume 5","volume 50%","volume at 5","volume at 50%"],
+        "command":"pactl",
+        "arguments": ["set-sink-volume","@DEFAULT_SINK@","50%"]
+    },
+    "volume 6":
+    {
+        "keywords": ["volume 6","volume 60%","volume at 6","volume at 60%"],
+        "command":"pactl",
+        "arguments": ["set-sink-volume","@DEFAULT_SINK@","60%"]
+    },
+    "volume 7":
+    {
+        "keywords": ["volume 7","volume 70%","volume at 7","volume at 70%"],
+        "command":"pactl",
+        "arguments": ["set-sink-volume","@DEFAULT_SINK@","70%"]
+    },
+    "volume 8":
+    {
+        "keywords": ["volume 8","volume 80%","volume at 8","volume at 80%"],
+        "command":"pactl",
+        "arguments": ["set-sink-volume","@DEFAULT_SINK@","80%"]
+    },
+    "volume 9":
+    {
+        "keywords": ["volume 9","volume 90%","volume at 9","volume at 90%"],
+        "command":"pactl",
+        "arguments": ["set-sink-volume","@DEFAULT_SINK@","90%"]
+    },
+    "volume 10":
+    {
+        "keywords": ["max volume","volume 10","volume 100%","volume at 10","volume at 100%","full volume"],
+        "command":"pactl",
+        "arguments": ["set-sink-volume","@DEFAULT_SINK@","100%"]
+    },
+    "copy":{
+        "keywords": ["copy as I say"],
+        "script": "./native/scripts/type.js",
+        "blocking": true
+    },
+    "type":{
+        "keywords": ["type as I say"],
+        "script": "./native/scripts/type.js",
+        "blocking": true
+    }
+}
