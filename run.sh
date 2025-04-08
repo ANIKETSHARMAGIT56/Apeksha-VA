@@ -15,7 +15,7 @@ if pgrep -x "apeksha-gui" > /dev/null; then
     echo "The executable is already running."
 else
     echo "The executable is not running."
-    build/apeksha-gui/apeksha-floaterwindow > /dev/null &
+    build/apeksha-gui/apeksha-gui > /dev/null &
 fi
 
 

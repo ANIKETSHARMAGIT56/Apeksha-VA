@@ -1,6 +1,7 @@
 #pragma once
 #include "IXWebSocket/ixwebsocket/IXWebSocket.h"
 #include <string>
+#include <string_view>
 #include <iostream>
 
 

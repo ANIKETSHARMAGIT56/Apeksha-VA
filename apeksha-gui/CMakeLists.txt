@@ -25,7 +25,7 @@ FetchContent_Declare(
   
   
   add_subdirectory(traypp)
-  add_executable(${PROJECT_NAME} main.cpp)
+  add_executable(${PROJECT_NAME} main.cpp ../libapeksha/libapeksha.cpp)
   
   target_link_libraries(${PROJECT_NAME} raylib m sioclient ixwebsocket tray)
   
