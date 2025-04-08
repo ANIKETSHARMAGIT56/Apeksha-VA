@@ -1,0 +1,15 @@
+[submodule "apeksha-gui/clay"]
+	path = apeksha-gui/clay
+	url = https://github.com/nicbarker/clay
+[submodule "apeksha-server/Crow"]
+	path = apeksha-server/Crow
+	url = https://github.com/CrowCpp/Crow
+[submodule "libapeksha/IXWebSocket"]
+	path = libapeksha/IXWebSocket
+	url = https://github.com/machinezone/IXWebSocket
+[submodule "apeksha-gui/traypp"]
+	path = apeksha-gui/traypp
+	url = https://github.com/Soundux/traypp
+[submodule "apeksha-hotword/pv_porcupine"]
+	path = apeksha-hotword/pv_porcupine
+	url = https://github.com/Picovoice/porcupine
